@@ -25,7 +25,7 @@ You don't need an OmniReader account. Your library is stored on your own PC.
 
 On the **Windows host PC**, open **Settings → Application updates → Check for updates → Download & install**. The updater checks the [public releases](https://github.com/TheProPizza/OmniReader/releases) for a newer **stable** version, verifies the Windows ZIP and restarts the app. Phone browsers cannot install updates.
 
-Stable Windows releases are **mirrored automatically to the public repository** after the private package is published and checked. The public release must be published as a regular release, tagged to match its application version, with an asset named `OmniReader-Windows.zip`. Drafts and prereleases are not offered through the updater.
+Stable Windows releases are **mirrored automatically to the public repository** after the private package is published and checked. The public release must be published as a regular release, tagged to match its application version, with an asset named `OmniReader-Windows.zip`. Drafts and prereleases are not offered through the updater. The public repository retains its five newest published releases; older release downloads are removed automatically.
 
 For a manual upgrade, stop OmniReader and replace the application files from the new ZIP. **Keep your entire `data/` folder and any `.env` file**. They contain your library, downloads, reading progress and configuration. Do not overwrite them with a fresh installation.
 
