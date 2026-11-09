@@ -7,7 +7,7 @@ OmniReader is a self-hosted reader for Windows with a browser-based interface. D
 > [!IMPORTANT]
 > **Public beta:** OmniReader is still in active development. Some sources, features and mobile workflows may be unreliable. Back up your library before upgrading.
 
-**[Download OmniReader for Windows](https://github.com/TheProPizza/OmniReader/releases)** · [Current beta: v2.2.29](https://github.com/TheProPizza/OmniReader/releases/tag/v2.2.29) · [Report a bug](https://github.com/TheProPizza/OmniReader/issues)
+**[Download OmniReader for Windows](https://github.com/TheProPizza/OmniReader/releases)** · [Browse releases and changelogs](https://github.com/TheProPizza/OmniReader/releases) · [Report a bug](https://github.com/TheProPizza/OmniReader/issues)
 
 ## Features
 
@@ -27,7 +27,7 @@ Source availability depends on third-party websites and extensions. Not every An
 **Requirements:** 64-bit Windows and an internet connection for the initial setup. You do **not** need to install Node.js or Java manually.
 
 1. Open the [Releases page](https://github.com/TheProPizza/OmniReader/releases).
-2. Under the newest available release, expand **Assets** and download the file named like `OmniReader-v2.2.29-Windows.zip`.
+2. Under the newest available release, expand **Assets** and download the **Windows ZIP** (not GitHub's auto-generated source archives).
 3. **Extract the entire ZIP** to a permanent folder you can keep (for example, inside Documents). Don't run it from inside the compressed ZIP.
 4. Double-click **`Start OmniReader.vbs`** in the extracted folder.
 5. Wait for the first-time setup to finish. OmniReader will download and prepare its runtime and reading sources; this can take several minutes.
@@ -87,7 +87,7 @@ If the issue persists, [open a GitHub issue](https://github.com/TheProPizza/Omni
 - **Windows hosts the reader:** phone and browser access do not run independently of the PC.
 - **Third-party sources vary:** some sites may block requests, remove chapters or require a login; some extensions are incompatible.
 - **Remote Access uses a temporary tunnel:** it is not intended to provide a permanent hosted service.
-- **Updates are manual for now:** an in-app updater is planned, but is not part of v2.2.29.
+- **Updates are manual for now:** an in-app updater is planned, but is not yet available in the public beta.
 
 ## Releases, source and attribution
 
