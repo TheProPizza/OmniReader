@@ -1,102 +1,47 @@
 # OmniReader
 
-**One library for manga, manhwa, manhua and light novels.**
+**Version 2.2.34** · A local-first reader for manga, manhwa, manhua, light novels and imported books. OmniReader runs on your Windows PC and opens in your browser, with optional access from your phone.
 
-OmniReader is a self-hosted reader for Windows with a browser-based interface. Discover titles, choose reading sources, organise your library and pick up where you left off. You can also read from a phone or tablet while OmniReader is running on your PC.
+## Download and start
 
-> [!IMPORTANT]
-> **Public beta:** OmniReader is still in active development. Some sources, features and mobile workflows may be unreliable. Back up your library before upgrading.
+1. Get a Windows ZIP from the **[public releases page](https://github.com/TheProPizza/OmniReader/releases)**. Stable Windows packages are mirrored from the private build workflow.
+2. Extract the **whole ZIP** to a folder you want to keep.
+3. Open **Start OmniReader**. On first launch, keep your internet connection on while OmniReader prepares its reading engines and sources. You do not need to install Node.js or Java yourself.
+4. Open **Stop OmniReader** when you want to shut it down.
 
-**[Download OmniReader for Windows](https://github.com/TheProPizza/OmniReader/releases)** · [Browse releases and changelogs](https://github.com/TheProPizza/OmniReader/releases) · [Report a bug](https://github.com/TheProPizza/OmniReader/issues)
+You don't need an OmniReader account. Your library is stored on your own PC.
 
-## Features
+> **Important:** GitHub's **Code → Download ZIP** is the source code, not the ready-to-run Windows download.
 
-- **Read comics and light novels:** manga, manhwa, manhua and web/light novels in one place.
-- **Discover series:** title information and recommendations using MangaBaka, with AniList and MyAnimeList as alternatives or fallbacks.
-- **Choose your sources:** browse supported comic extensions and LNReader novel sources, with source management in the app.
-- **Keep your place:** a local library, reading history, chapter progress and reading preferences.
-- **Customise reading:** page and vertical reading modes, sizing controls and reader preferences.
-- **Bring your own files:** import supported locally stored books and comics.
-- **Optional AniList sync:** connect your AniList account to track reading activity.
-- **Read on other devices:** access the same library on your home network or through an optional protected remote connection.
+## What you can do
 
-Source availability depends on third-party websites and extensions. Not every Android-dependent extension works in the Windows runtime.
+- **Discover stories:** Browse MangaBaka, AniList or MyAnimeList rankings. Each shelf starts with **two rows**; **View more** adds another two rows without leaving Discover.
+- **Find chapters:** Search your enabled comic sources, including MangaDot and Comix, or manage light-novel sources through the LNReader catalogue in **Sources**. Individual websites and extensions can occasionally be unavailable.
+- **Read your way:** Comic reading modes, a configurable novel reader, bookmarks, reading progress and offline downloads.
+- **Manage your library:** Save favourites, track reading status, import supported books and comics, and see your history under **My library**.
+- **Sync with AniList:** Optionally connect AniList in Settings to match titles and sync supported reading progress.
 
-## Download and install (Windows)
+## Updates and keeping your library
 
-**Requirements:** 64-bit Windows and an internet connection for the initial setup. You do **not** need to install Node.js or Java manually.
+On the **Windows host PC**, open **Settings → Application updates → Check for updates → Download & install**. The updater checks the [public releases](https://github.com/TheProPizza/OmniReader/releases) for a newer **stable** version, verifies the Windows ZIP and restarts the app. Phone browsers cannot install updates.
 
-1. Open the [Releases page](https://github.com/TheProPizza/OmniReader/releases).
-2. Under the newest available release, expand **Assets** and download the **Windows ZIP** (not GitHub's auto-generated source archives).
-3. **Extract the entire ZIP** to a permanent folder you can keep (for example, inside Documents). Don't run it from inside the compressed ZIP.
-4. Double-click **`Start OmniReader.vbs`** in the extracted folder.
-5. Wait for the first-time setup to finish. OmniReader will download and prepare its runtime and reading sources; this can take several minutes.
-6. The reader opens in your default browser. Use **`Stop OmniReader.vbs`** when you want to shut it down.
+Stable Windows releases are **mirrored automatically to the public repository** after the private package is published and checked. The public release must be published as a regular release, tagged to match its application version, with an asset named `OmniReader-Windows.zip`. Drafts and prereleases are not offered through the updater.
 
-The Windows ZIP is the runnable release. GitHub's green **Code → Download ZIP** button downloads this *repository*, not the Windows application.
+For a manual upgrade, stop OmniReader and replace the application files from the new ZIP. **Keep your entire `data/` folder and any `.env` file**. They contain your library, downloads, reading progress and configuration. Do not overwrite them with a fresh installation.
 
-## Getting started
+## Read on your phone
 
-1. Open **Sources** to find and manage comic and light-novel sources.
-2. Browse or search for a series, then choose an available source to read it.
-3. Add titles to **My library** to keep your progress and reading history together.
-4. Open **Settings** to adjust your reader, manage AniList integration or enable phone access.
+In **Settings → Phone Access** on your PC, choose:
 
-OmniReader stores its local library and settings on your computer. An OmniReader sign-in account is not required.
+- **Local Access:** Connect from a phone on the same trusted home network using the provided link or QR code. If Windows asks about firewall access, allow **Private networks only**.
+- **Remote Access:** Connect away from home through an optional, email-protected Cloudflare Quick Tunnel. Approve the email addresses in Settings and use the current HTTPS link or QR code. Links are temporary and can change when the tunnel restarts.
 
-## Read on your phone or tablet
+**Your PC must stay running** for either option. Phone Access is off by default. Do not forward OmniReader's port on your router.
 
-On your Windows PC, open **Settings → Phone Access**. Access is **off by default**.
+## Need help?
 
-| Mode | How it works | What you need |
-| --- | --- | --- |
-| **Local Access** | Enables a local link and QR code to open OmniReader from a browser on the same home network. | Your phone/tablet on the same trusted network as your PC. |
-| **Remote Access** | Creates a temporary HTTPS link through Cloudflare Tunnel, protected by email verification for approved addresses. | An internet connection and an approved email address. |
+If the app won't start, check `data/launcher.log`. For comic engine problems, open **Sources** and use the restart or startup-report options. A particular reading source may be down even when OmniReader itself is working.
 
-Both modes require the **Windows PC to stay powered on, online and running OmniReader**. Remote URLs can change after a restart. You don't need to forward ports on your router.
+For developers, more documentation is available in the source repository under `docs/` (not included in the Windows ZIP).
 
-Use Safari or Chrome on your phone; where supported, you can add the site to your home screen. Only enable local access on a network you trust, and never share email verification codes.
-
-## Updating without losing your library
-
-There is no in-app one-click updater in this beta. Until one is available:
-
-1. Run **`Stop OmniReader.vbs`**.
-2. **Back up your existing `data` folder** before changing anything. Keep any private `.env` configuration you created, too.
-3. Download and extract the new Windows ZIP into a new folder.
-4. Move a **copy** of your backed-up `data` folder (and `.env`, if used) into the corresponding locations in the new installation. Do not replace them with an empty folder.
-5. Start the new version and check that your library and progress are present before removing the older installation.
-
-The `data` folder contains local application state and should **never** be published or shared in bug reports.
-
-## Troubleshooting
-
-| Problem | What to try |
-| --- | --- |
-| First launch takes a long time | Leave the setup running and check your internet connection; runtime and source downloads happen on first use. |
-| OmniReader doesn't open | Try **Start OmniReader** again and check `data/launcher.log` for errors. |
-| A title or chapter won't load | Try another source. Websites and extensions can change or become unavailable independently of OmniReader. |
-| Phone can't connect locally | Check that the PC and phone are on the same non-guest home network. A Windows Firewall prompt should be allowed for **Private** networks only. |
-| Remote link stopped working | Open **Settings → Phone Access** on the PC and check or regenerate the current link. Temporary tunnel URLs are not permanent. |
-
-If the issue persists, [open a GitHub issue](https://github.com/TheProPizza/OmniReader/issues/new) with your Windows version, OmniReader version, what happened and steps to reproduce it. **Remove personal information, private URLs, email addresses and tokens from logs or screenshots before posting.**
-
-## Current limitations
-
-- **Beta software:** bugs and breaking changes are possible.
-- **Windows hosts the reader:** phone and browser access do not run independently of the PC.
-- **Third-party sources vary:** some sites may block requests, remove chapters or require a login; some extensions are incompatible.
-- **Remote Access uses a temporary tunnel:** it is not intended to provide a permanent hosted service.
-- **Updates are manual for now:** an in-app updater is planned, but is not yet available in the public beta.
-
-## Releases, source and attribution
-
-This repository is the **public download and release page** for OmniReader. The application ZIP includes the files needed to run the Windows version, while ongoing development takes place separately.
-
-OmniReader interacts with independent metadata providers, reading sources and extension projects. It is not affiliated with those services. Respect applicable copyright and the terms of any sources you use.
-
-OmniReader's original code is licensed under the [MIT License](LICENSE) (© 2026 TheProPizza). Bundled third-party components retain their own copyright and licence notices; the MIT licence does not replace those separate terms.
-
----
-
-*Built by [TheProPizza](https://github.com/TheProPizza). Feedback and bug reports are welcome while OmniReader is in beta.*
+Licensed under [MIT](LICENSE). Third-party components retain their respective licences.
