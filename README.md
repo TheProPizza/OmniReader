@@ -95,7 +95,7 @@ This repository is the **public download and release page** for OmniReader. The 
 
 OmniReader interacts with independent metadata providers, reading sources and extension projects. It is not affiliated with those services. Respect applicable copyright and the terms of any sources you use.
 
-Bundled third-party components keep their respective copyright and licence notices. A project-wide licence for OmniReader's original code has not yet been published in this repository.
+OmniReader's original code is licensed under the [MIT License](LICENSE) (© 2026 TheProPizza). Bundled third-party components retain their own copyright and licence notices; the MIT licence does not replace those separate terms.
 
 ---
 
