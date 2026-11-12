@@ -1,6 +1,6 @@
 # OmniReader
 
-**Version 2.2.47** · A local-first reader for manga, manhwa, manhua, light novels and imported books. OmniReader runs on your Windows PC and opens in your browser, with optional access from your phone.
+**Version 2.2.48** · A local-first reader for manga, manhwa, manhua, light novels and imported books. OmniReader runs on your Windows PC and opens in your browser, with optional access from your phone.
 
 ## Download and start
 
