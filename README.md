@@ -8,7 +8,7 @@ A reader that runs on your Windows PC and opens in your browser.
 Pick up where you left off, discover something new, or bring your own books.
 
 ![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?style=flat-square)
-![Version](https://img.shields.io/badge/version-2.2.50-29B6F6?style=flat-square)
+![Version](https://img.shields.io/badge/version-2.2.51-29B6F6?style=flat-square)
 ![License: MIT](https://img.shields.io/badge/license-MIT-29B6F6?style=flat-square)
 
 **[Download for Windows](https://github.com/TheProPizza/OmniReader/releases/latest)** · [All releases](https://github.com/TheProPizza/OmniReader/releases) · [Getting started](#getting-started) · [Screenshots](#screenshots)
@@ -48,6 +48,7 @@ Browse MangaBaka, AniList or MyAnimeList rankings, or search your enabled source
 | **Read comics and novels** | Manga, manhwa, manhua and light novels, with adjustable reading modes and typography. |
 | **Find your next read** | Browse rankings, expand recommendation shelves and search supported reading sources. |
 | **Explore from Home** | Suggested now, popular picks, top-rated titles and comic/novel categories alongside your reading activity. |
+| **Keep reading through source errors** | Comic chapters automatically try the next working source when the same chapter can be matched. |
 | **Keep your place** | Reading progress, bookmarks, favourites and history in one local library. |
 | **Bring your own books** | Import EPUB, CBZ, CBR, PDF, text, HTML and Markdown files. |
 | **Read on another device** | Optional home-network access from a phone or tablet. |
