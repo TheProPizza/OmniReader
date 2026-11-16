@@ -8,6 +8,13 @@ History was reconstructed from versioned source, packaged-download documentation
 
 <!-- Add public, user-facing notes here before changing the version. -->
 
+## [2.2.57] - 2026-11-16
+
+- Give dropdown arrows consistent inset spacing and reserve room for labels across the app in Liquid Glass and Classic.
+- Load more Discover results as you scroll, keeping earlier titles visible and resetting the feed when filters change.
+- Keep cover-image traffic separate from the main API rate limit and share library data with search suggestions to prevent redundant library requests.
+- Allow saved reading to reopen offline without waiting for online source-setup checks.
+
 ## [2.2.56] - 2026-11-16
 
 - Redesign title details as a compact artwork card with prominent reading controls, integrated source choices and expandable descriptions.
