@@ -8,6 +8,13 @@ History was reconstructed from versioned source, packaged-download documentation
 
 <!-- Add public, user-facing notes here before changing the version. -->
 
+## [2.2.55] - 2026-11-16
+
+- Unify live search suggestions across Home, Discover and the sidebar, with cover previews, alternate names, recent searches and keyboard navigation.
+- Load catalogue suggestions independently, reuse recent matches while typing, and preserve local-library suggestions when online catalogues are unavailable.
+- Improve exact-title and prefix ranking, tolerate small typing and spacing errors, and combine duplicate suggestions while keeping distinct works separate.
+- Cancel abandoned catalogue requests without interrupting other browsers, honour suggestion-cache expiry, and preserve title details and keyboard selection as results update.
+
 ## [2.2.54] - 2026-11-16
 
 - Add per-chapter offline download buttons and Download all, with saved indicators, queue progress and stop-after-current controls.
