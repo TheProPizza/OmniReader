@@ -8,6 +8,11 @@ History was reconstructed from versioned source, packaged-download documentation
 
 <!-- Add public, user-facing notes here before changing the version. -->
 
+## [2.2.56] - 2026-11-16
+
+- Redesign title details as a compact artwork card with prominent reading controls, integrated source choices and expandable descriptions.
+- Bring chapters higher up with a combined heading and Download all control, tighter chapter rows and responsive layouts for Liquid Glass and Classic.
+
 ## [2.2.55] - 2026-11-16
 
 - Unify live search suggestions across Home, Discover and the sidebar, with cover previews, alternate names, recent searches and keyboard navigation.
