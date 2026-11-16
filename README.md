@@ -8,7 +8,7 @@ A reader that runs on your Windows PC and opens in your browser.
 Pick up where you left off, discover something new, or bring your own books.
 
 ![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?style=flat-square)
-![Version](https://img.shields.io/badge/version-2.2.56-29B6F6?style=flat-square)
+![Version](https://img.shields.io/badge/version-2.2.57-29B6F6?style=flat-square)
 ![License: MIT](https://img.shields.io/badge/license-MIT-29B6F6?style=flat-square)
 
 **[Download for Windows](https://github.com/TheProPizza/OmniReader/releases/latest)** · [All releases](https://github.com/TheProPizza/OmniReader/releases) · [Getting started](#getting-started) · [Screenshots](#screenshots) · [Changelog](https://github.com/TheProPizza/OmniReader/blob/main/CHANGELOG.md)
