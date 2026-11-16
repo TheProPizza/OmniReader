@@ -8,6 +8,11 @@ History was reconstructed from versioned source, packaged-download documentation
 
 <!-- Add public, user-facing notes here before changing the version. -->
 
+## [2.2.54] - 2026-11-16
+
+- Add per-chapter offline download buttons and Download all, with saved indicators, queue progress and stop-after-current controls.
+- Enable offline saving for readable comic extension chapters while retaining restrictions for other sources.
+
 ## [2.2.53] - 2026-11-15
 
 - Integrate Genre with the browsing filters, preserving category selection and resetting pagination when the genre changes.
