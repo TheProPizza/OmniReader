@@ -8,6 +8,12 @@ History was reconstructed from versioned source, packaged-download documentation
 
 <!-- Add public, user-facing notes here before changing the version. -->
 
+## [3.0.4] - 2026-11-17
+
+- Replaced the previous book acquisition integration with native Legado-compatible text sources. Import source JSON files or URLs in Books → Sources, enable the sources you want, and search and read their chapters inside OmniReader.
+- Added isolated JavaScript rules, CSS/XPath/JSONPath parsing, paginated chapter lists, source switching and chapter downloads through the existing offline reader. Android-only source features may require adapted rules.
+- Preserved imported EPUB/PDF files, bookmarks, reading progress and e-reader delivery settings. Matching book editions share a library entry; failed chapter lists retain source-switch controls.
+
 ## [3.0.3] - 2026-11-17
 
 - Added a direct Gutenberg catalogue fallback and clearer per-source availability, account and maintenance messages. Modern-title searches can exclude public-domain catalogues.
