@@ -8,6 +8,17 @@ History was reconstructed from versioned source, packaged-download documentation
 
 <!-- Add public, user-facing notes here before changing the version. -->
 
+## [3.0.2] - 2026-11-17
+
+- Fixed book downloads inheriting metadata from a different search result and returning stale source results after account settings changed.
+- Fixed cancellation overwriting an immediately retried download, and enforced queue capacity when downloading a removed book again.
+
+## [3.0.1] - 2026-11-17
+
+- Fixed a network filter bug that rejected all IPv4 book-source connections, and added support for configured HTTPS proxies while retaining private-network protection.
+- Corrected source cooldown counting, enabled explicit search retries, and added clearer connection errors.
+- Tidied book-dialog actions and permission controls, and hid download filters when searches return no releases.
+
 ## [3.0.0] - 2026-11-17
 
 - Native book-source search and EPUB/PDF downloads now run inside OmniReader, with source controls, format filters, progress, cancellation, retries and automatic library import. No separate book server or Docker installation is required.
