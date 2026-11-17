@@ -8,6 +8,16 @@ History was reconstructed from versioned source, packaged-download documentation
 
 <!-- Add public, user-facing notes here before changing the version. -->
 
+## [2.2.59] - 2026-11-17
+
+- Fix Books card alignment and spacing, with consistent cover sizes and readable fallbacks for unavailable images.
+- Load Open Library covers through validated archive redirects, share duplicate image requests and cache successful covers.
+- Improve book search ranking, separate box sets and companion books, and preserve distinct series volumes when catalogue ISBN lists overlap.
+- Fix repeated searches, provider-switch failures and cached outage results that prevented searches from recovering.
+- Merge duplicate book imports with reading-list entries while retaining favourites, collections and reading progress; preserve series fields during partial edits.
+- Resize PDF pages after rotation, reject fractional page positions and avoid showing stale page content while loading.
+- Cancel active book downloads and deliveries during shutdown so they do not delay closing or updating OmniReader.
+
 ## [2.2.58] - 2026-11-17
 
 - Add a Books section with Open Library, Google Books and Hardcover discovery, reading lists, series grouping and EPUB/PDF imports while preserving manga and light novel readers.
