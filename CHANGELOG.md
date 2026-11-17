@@ -8,6 +8,12 @@ History was reconstructed from versioned source, packaged-download documentation
 
 <!-- Add public, user-facing notes here before changing the version. -->
 
+## [3.0.0] - 2026-11-17
+
+- Native book-source search and EPUB/PDF downloads now run inside OmniReader, with source controls, format filters, progress, cancellation, retries and automatic library import. No separate book server or Docker installation is required.
+- Added optional access to completed EPUB/PDF files in your TorBox library. Public sources work without keys; account-specific sources require your own credentials.
+- Removed the previous external book connector while preserving imported books, delivery settings and reading progress.
+
 ## [2.2.59] - 2026-11-17
 
 - Fix Books card alignment and spacing, with consistent cover sizes and readable fallbacks for unavailable images.
