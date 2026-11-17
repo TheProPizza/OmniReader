@@ -8,6 +8,14 @@ History was reconstructed from versioned source, packaged-download documentation
 
 <!-- Add public, user-facing notes here before changing the version. -->
 
+## [2.2.58] - 2026-11-17
+
+- Add a Books section with Open Library, Google Books and Hardcover discovery, reading lists, series grouping and EPUB/PDF imports while preserving manga and light novel readers.
+- Search configured Shelfmark sources, queue authorised EPUB/PDF downloads and import completed books automatically, with persistent status and duplicate-file protection.
+- Add optional local Shelfmark management through Docker Desktop using a pinned official image and separate companion data.
+- Read PDFs inside OmniReader with zoom, page navigation, bookmarks and page resumption across OmniReader devices; reuse existing EPUB typography and progress sync.
+- Retain authorised book originals for export, Send to Kindle email and Kobo cloud delivery through Google Drive or Dropbox, with protected settings and explicit delivery status.
+
 ## [2.2.57] - 2026-11-16
 
 - Give dropdown arrows consistent inset spacing and reserve room for labels across the app in Liquid Glass and Classic.
