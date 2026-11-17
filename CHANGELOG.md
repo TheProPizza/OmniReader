@@ -8,6 +8,11 @@ History was reconstructed from versioned source, packaged-download documentation
 
 <!-- Add public, user-facing notes here before changing the version. -->
 
+## [3.0.5] - 2026-11-17
+
+- Fixed Windows updates from older versions rejecting the package layout. Book guides now ship inside the application folder, and release publishing checks compatibility with installed updaters.
+- Update failures now show output from the current attempt only. The installer retries temporary Windows file locks and gives clearer recovery instructions if files remain locked.
+
 ## [3.0.4] - 2026-11-17
 
 - Replaced the previous book acquisition integration with native Legado-compatible text sources. Import source JSON files or URLs in Books → Sources, enable the sources you want, and search and read their chapters inside OmniReader.
