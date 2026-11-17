@@ -8,7 +8,7 @@ A reader that runs on your Windows PC and opens in your browser.
 Pick up where you left off, discover something new, or bring your own books.
 
 ![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?style=flat-square)
-![Version](https://img.shields.io/badge/version-3.0.2-29B6F6?style=flat-square)
+![Version](https://img.shields.io/badge/version-3.0.3-29B6F6?style=flat-square)
 ![License: MIT](https://img.shields.io/badge/license-MIT-29B6F6?style=flat-square)
 
 **[Download for Windows](https://github.com/TheProPizza/OmniReader/releases/latest)** · [All releases](https://github.com/TheProPizza/OmniReader/releases) · [Getting started](#getting-started) · [Screenshots](#screenshots) · [Changelog](https://github.com/TheProPizza/OmniReader/blob/main/CHANGELOG.md)
@@ -64,7 +64,7 @@ AniList’s first connection needs a public application Client ID. The PC owner 
 
 Source availability depends on third-party websites and extensions. Manage comic sources and LNReader novel extensions in **Sources**.
 
-For ordinary books, open **Books**, then import an EPUB/PDF or discover a title to add to your reading list. Configure optional metadata providers, native book sources and e-reader delivery in **Settings → Books & e-readers** on your PC. Open Library works without a key. Book sources run inside OmniReader without another application. Public sources need no key; optional source memberships and TorBox need your own credentials. Source availability varies. Cloud delivery requires your own Google/Dropbox OAuth app, and Kindle requires an approved sender and SMTP account. Kindle/Kobo reading positions remain separate from OmniReader's device sync.
+For ordinary books, open **Books**, then import an EPUB/PDF or discover a title to add to your reading list. Configure optional metadata providers, native book sources and e-reader delivery in **Settings → Books & e-readers** on your PC. Open Library works without a key. Book sources run inside OmniReader without another application. Public sources need no key; optional source memberships, the experimental Z-Library adapter and TorBox need your own credentials. TorBox links and magnets can be queued in Books → Downloads & delivery. Source availability varies. Cloud delivery requires your own Google/Dropbox OAuth app, and Kindle requires an approved sender and SMTP account. Kindle/Kobo reading positions remain separate from OmniReader's device sync.
 
 ## Getting started
 
