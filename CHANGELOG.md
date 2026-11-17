@@ -8,6 +8,12 @@ History was reconstructed from versioned source, packaged-download documentation
 
 <!-- Add public, user-facing notes here before changing the version. -->
 
+## [3.0.3] - 2026-11-17
+
+- Added a direct Gutenberg catalogue fallback and clearer per-source availability, account and maintenance messages. Modern-title searches can exclude public-domain catalogues.
+- Added an optional experimental Z-Library account source using encrypted credentials and isolated sessions. Source access and account limits still apply.
+- Added TorBox download-link and magnet submissions, cloud progress, automatic EPUB/PDF import and file selection for multi-book tasks, with protection against duplicate submissions.
+
 ## [3.0.2] - 2026-11-17
 
 - Fixed book downloads inheriting metadata from a different search result and returning stale source results after account settings changed.
