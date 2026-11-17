@@ -8,7 +8,7 @@ A reader that runs on your Windows PC and opens in your browser.
 Pick up where you left off, discover something new, or bring your own books.
 
 ![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?style=flat-square)
-![Version](https://img.shields.io/badge/version-3.0.3-29B6F6?style=flat-square)
+![Version](https://img.shields.io/badge/version-3.0.4-29B6F6?style=flat-square)
 ![License: MIT](https://img.shields.io/badge/license-MIT-29B6F6?style=flat-square)
 
 **[Download for Windows](https://github.com/TheProPizza/OmniReader/releases/latest)** · [All releases](https://github.com/TheProPizza/OmniReader/releases) · [Getting started](#getting-started) · [Screenshots](#screenshots) · [Changelog](https://github.com/TheProPizza/OmniReader/blob/main/CHANGELOG.md)
@@ -52,7 +52,7 @@ Browse MangaBaka, AniList or MyAnimeList rankings, or search your enabled source
 | **Keep your place** | Reading progress, bookmarks, favourites and history in one local library. |
 | **Bring your own books** | Import EPUB, CBZ, CBR, PDF, text, HTML and Markdown files. |
 | **Discover ordinary books** | A Books section with Open Library, Google Books and Hardcover metadata, reading lists and series groups. |
-| **Acquire authorised copies** | Search native book sources, follow downloads and import completed EPUB/PDF files inside OmniReader. |
+| **Read from book sources** | Import Legado JSON sources, search books, switch sources and save chapters for offline reading. |
 | **Read EPUB and PDF** | EPUB typography and themes; PDF zoom, page navigation and bookmarks. Resume reading between OmniReader devices. |
 | **Send to your e-reader** | Email compatible EPUBs to Kindle or upload EPUB/PDF files to a linked Kobo cloud folder through Google Drive or Dropbox. Requires configuration and a compatible device. |
 | **Read on another device** | Optional home-network access from a phone or tablet. |
@@ -64,7 +64,8 @@ AniList’s first connection needs a public application Client ID. The PC owner 
 
 Source availability depends on third-party websites and extensions. Manage comic sources and LNReader novel extensions in **Sources**.
 
-For ordinary books, open **Books**, then import an EPUB/PDF or discover a title to add to your reading list. Configure optional metadata providers, native book sources and e-reader delivery in **Settings → Books & e-readers** on your PC. Open Library works without a key. Book sources run inside OmniReader without another application. Public sources need no key; optional source memberships, the experimental Z-Library adapter and TorBox need your own credentials. TorBox links and magnets can be queued in Books → Downloads & delivery. Source availability varies. Cloud delivery requires your own Google/Dropbox OAuth app, and Kindle requires an approved sender and SMTP account. Kindle/Kobo reading positions remain separate from OmniReader's device sync.
+For ordinary books, open **Books** to import an EPUB/PDF, browse metadata catalogues or read from **Legado-compatible sources**. Import source JSON files or URLs in **Books → Sources**, then search enabled sources in **Discover books**. Chapters open in OmniReader and support offline downloads, bookmarks and reading progress. Android-only source features may require adapted rules; see [source compatibility](docs/NATIVE-BOOK-SOURCES.md). Open Library works without a key; optional metadata providers and e-reader delivery are configured in **Settings → Books & e-readers**. Cloud delivery of imported originals requires your own Google/Dropbox OAuth app, and Kindle requires an approved sender and SMTP account. Kindle/Kobo reading positions remain separate from OmniReader's device sync.
+
 
 ## Getting started
 
