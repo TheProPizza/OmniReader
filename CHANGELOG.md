@@ -8,6 +8,10 @@ History was reconstructed from versioned source, packaged-download documentation
 
 <!-- Add public, user-facing notes here before changing the version. -->
 
+## [3.0.6] - 2026-11-18
+
+- Removed the dedicated Books section, Legado source support and e-reader delivery. Removed saved Legado chapters, bookmarks and reading history. Open imported EPUBs and PDFs from My library.
+
 ## [3.0.5] - 2026-11-17
 
 - Fixed Windows updates from older versions rejecting the package layout. Book guides now ship inside the application folder, and release publishing checks compatibility with installed updaters.
