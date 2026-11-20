@@ -8,6 +8,22 @@ History was reconstructed from versioned source, packaged-download documentation
 
 <!-- Add public, user-facing notes here before changing the version. -->
 
+## [3.0.8] - 2026-11-20
+
+- Large searches group editions faster. Novel aliases now match across apostrophe differences, fractional volumes stay separate, and a comic and novel can both appear when a source reuses an ID.
+- Discover waits for the source list before searching, avoiding a duplicate first-page request. Same-named catalogue works remain visible when a lone source has too little metadata to identify them.
+- Bookmarks saved online are available offline. Deleting a queued bookmark prevents it from returning on reconnect, and offline prose reading preserves the paragraph position.
+- Offline chapter saves use one content copy. Opening and removing a saved chapter no longer reads the entire device cache.
+- Chapter lists request smaller reading histories. Deleting an imported edition also removes its link from the surviving library entry.
+- Opening the app loads fewer settings assets, and offline reading pauses background source checks.
+
+## [3.0.7] - 2026-11-19
+
+- Restored Sources to the phone navigation. Older Books links now open the saved title or My library.
+- Chapters can be saved offline when their cover is missing. A failure to open device storage now marks the download as failed so it can be retried.
+- Saving reading progress now updates only the relevant offline records. Download all reuses library, progress and bookmark requests across chapters. Offline installation fetches each interface asset once.
+- Removed the retired book download and delivery queue and corrected the feature list.
+
 ## [3.0.6] - 2026-11-18
 
 - Removed the dedicated Books section, Legado source support and e-reader delivery. Removed saved Legado chapters, bookmarks and reading history. Open imported EPUBs and PDFs from My library.
