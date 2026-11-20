@@ -8,7 +8,7 @@ A reader that runs on your Windows PC and opens in your browser.
 Pick up where you left off, discover something new, or bring your own books.
 
 ![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?style=flat-square)
-![Version](https://img.shields.io/badge/version-3.0.6-29B6F6?style=flat-square)
+![Version](https://img.shields.io/badge/version-3.0.8-29B6F6?style=flat-square)
 ![License: MIT](https://img.shields.io/badge/license-MIT-29B6F6?style=flat-square)
 
 **[Download for Windows](https://github.com/TheProPizza/OmniReader/releases/latest)** · [All releases](https://github.com/TheProPizza/OmniReader/releases) · [Getting started](#getting-started) · [Screenshots](#screenshots) · [Changelog](https://github.com/TheProPizza/OmniReader/blob/main/CHANGELOG.md)
@@ -52,7 +52,6 @@ Browse MangaBaka, AniList or MyAnimeList rankings, or search your enabled source
 | **Keep your place** | Reading progress, bookmarks, favourites and history in one local library. |
 | **Bring your own books** | Import EPUB, CBZ, CBR, PDF, text, HTML and Markdown files. |
 | **Read EPUB and PDF** | EPUB typography and themes; PDF zoom, page navigation and bookmarks. Resume reading between OmniReader devices. |
-| **Send to your e-reader** | Email compatible EPUBs to Kindle or upload EPUB/PDF files to a linked Kobo cloud folder through Google Drive or Dropbox. Requires configuration and a compatible device. |
 | **Read on another device** | Optional home-network access from a phone or tablet. |
 | **Connect AniList** | Match library titles and sync supported reading progress. |
 | **Save for offline reading** | Download chapters from sources that permit it. |
